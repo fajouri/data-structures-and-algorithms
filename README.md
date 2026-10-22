@@ -9,7 +9,7 @@ Course repository for **Ascencia Malta — MSc in Computer Science (MQF/EQF Leve
 - Python and C++ practical work
 - Official assessment: closed-book written examination (60%) and four programming assignments (40%)
 
-The **official Module Descriptor** takes precedence over the course plan and session materials. The draft `course-plan.md` and `COURSE_STATUS.md` will be added once the lecturer authorises publication.
+The **official Module Descriptor** takes precedence over the course plan and session materials. The [course plan](course-plan.md) and [course tracker](COURSE_STATUS.md) are published as **DRAFTS for lecturer review**. Their presence in GitHub does not constitute academic approval.
 
 ## Where to find things
 
