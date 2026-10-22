@@ -1,6 +1,6 @@
 # M12 — Data Structures and Algorithms: Course Plan
 
-> **Status: DRAFT — lecturer approval required.** Prepared from the three-page official Ascencia Malta M12 Module Descriptor provided on 22 October 2026. This is a teaching proposal, **not** an amendment to academic rules.
+> **Teaching plan: APPROVED by the lecturer (pedagogical scope), 22 October 2026.** Assessment implementation details not set out in the official descriptor remain **PENDING INSTITUTIONAL CONFIRMATION**. This approval does not amend the official learning outcomes, assessment weights, assessment formats, prescribed assignment topics, or university policies. **This approval step does not generate S01 or any other session material.**
 
 ## 1. Module Requirements Summary
 
@@ -72,22 +72,37 @@ The descriptor presents outcomes under three headings, without official IDs. The
 - Sedgewick & Wayne (2011), *Algorithms*, 4th ed., Addison-Wesley.
 - Skiena (2020), *The Algorithm Design Manual*, 3rd ed., Springer.
 
-### B. Decisions requiring lecturer/institutional approval
+### B. Recorded lecturer decisions — approved teaching design
 
-| Decision | Proposed default | Why it remains open |
+**Approval record (22 October 2026).** The lecturer confirmed the following decisions for the teaching plan. They are delivery choices, **not amendments to the official Module Descriptor**:
+
+| Teaching decision | Lecturer-approved implementation |
+|---|---|
+| Programming emphasis | **Python first** for explanation, traces, examples, testing and most introductory labs; **C++** for memory, data-structure implementation details and performance benchmarking where appropriate. Both languages remain in module scope. |
+| Practical environment | **Google Colab** for Python notebooks and accessible demonstrations; **Visual Studio Code** with a locally available C++ toolchain for C++ exercises. Provide a runnable offline fallback when appropriate. Tool versions remain implementation details, not institutional mandates. |
+| Three-hour classroom design | **60–75 minutes of theory** alongside live algorithm demonstrations, discussion and supervised practical activities. A proposed 180-minute agenda is recorded in section 2 and may be adapted to institutionally required breaks. |
+| Session materials | Editable **16:9 `slides.pptx` with detailed native speaker notes**, `README.md`, substantial `lecture.md`, student-only `exercises.md`, and runnable lab/source/notebook **when appropriate**. Keep `slides.md` as the editable authoring/handoff source. |
+| Twenty-session progression | **Approved unchanged**, including the descriptor-specified assignment checkpoints S05/S10/S15/S19 and the integrative S20. Preserve 20 × 3 contact hours. |
+| Repository administration | Preserve the **single existing default branch `master`**, a single `COURSE_STATUS.md`, no PRs/Issues/Kanban, and no commits of future academic changes without explicit instruction. |
+
+**Scope of approval:** permits preparation and lecturer review of ordinary teaching materials against this plan **when separately requested**. It does **not** approve unconfirmed graded assessment specifications, assessment deadlines, a final exam calendar, or automatic publication. As specifically requested, **do not generate S01 as part of this approval step**.
+
+### B2. Still awaiting institutional confirmation before publishing graded assessment instructions
+
+| Decision | Current position | Confirmation required |
 |---|---|---|
-| Primary lecture language | Teach/program first in Python, validate selected implementations/benchmarks in C++ | Both Python and C++ are required; exact use per assessed deliverable is unspecified |
-| Environment | Python 3 + Jupyter/Colab for small labs; C++17 locally or in an approved browser compiler | Student devices, access and institutional policies not specified |
-| Four assignment weights | **TBD**, summing to the official 40% | Equal 10% each would be a new rule, not part of the descriptor |
-| Assignment meaning of S05/S10/S15/S19 | Teaching/workshop checkpoints at the listed sessions; deadlines **TBD** | Descriptor does not define whether dates are releases or deadlines |
-| Examination calendar | **TBD**; keep its 2.5-hour duration and 60% weight | Descriptor does not say whether examination occurs within the 60 contact hours |
-| Assessment-hour allocation | **TBD**, preserving 28 hours in total | Descriptor does not split 28 hours between assignments and exam |
-| Lab submissions and marking rubrics | Standardised tests + complexity reasoning + performance evidence; detailed rubrics **TBD** | Descriptor fixes topics, not precise rubric or submission format |
-| Python/C++ distribution across assignments | Require clear engagement with both languages; verify assignment-by-assignment requirements before setting tasks | Avoid silently weakening the descriptor's dual-language emphasis |
-| Real-world graph dataset | Choose one documented, legally reusable graph with reproducible loading | Dataset/size/edge-weight semantics must be approved |
-| Large sorting benchmarks | Preserve official 10^4–10^7 range, with staged or provided hardware to avoid excluding students | 10^7 may exceed memory/time on some student machines |
-| Exact class schedule, prerequisite courses and academic policies | **TBD** | Not included in the supplied descriptor |
-| Repository default branch | Use a **single** default branch; prefer `main` if renamed before publication | Newly inspected repository is empty but its current default is `master` |
+| Assignment weights | **PENDING**, must sum to the official 40% | No approved per-assignment weights are present in the descriptor; do **not** assume 10% each. |
+| Interpretation of S05/S10/S15/S19 | Keep as module-specified assignment sessions; use workshop/checkpoint structure as a teaching plan only | Confirm whether each session is an assignment release, in-class milestone, submission date, or another designated event. |
+| Assignment submission deadlines | **PENDING** | Dates, late policy, resubmission and extensions depend on institutional rules. |
+| Rubrics and deliverables | **PENDING** | Confirm submission format, marking criteria and whether theory, code, reproducibility and empirical evidence have specified weights. |
+| Python/C++ requirements in *graded* assignments | **PENDING** | Lecturer has approved a Python-first *teaching* approach, not Python-only graded submissions; confirm language requirements per assignment. |
+| Exam scheduling | **PENDING** | The official exam remains closed-book, 2.5 hours and 60%; confirm date and whether it is scheduled outside contact hours. |
+| Assessment-hour allocation | **PENDING** | The official 28 assessment hours remain unchanged; confirm the allocation rather than inventing a breakdown. |
+| Assignment 4 graph dataset | **PENDING** | Approve a legally reusable real-world graph, data provenance, weight interpretation and algorithm preconditions before release. |
+| Benchmark infrastructure | **PENDING** | Preserve official A2 input range 10^4–10^7 and confirm feasible access to computing resources before setting submission criteria. |
+| Class dates, required prerequisites and other academic policies | **PENDING** | Confirm through the institution if and when they are needed. |
+
+Unresolved institutional items do **not** prevent designing or reviewing ungraded teaching sessions. They **do** prevent inventing binding student-facing graded assignment rules.
 
 ### C. Optional pedagogical enhancements (not academic requirements)
 
@@ -98,23 +113,23 @@ The descriptor presents outcomes under three headings, without official IDs. The
 - Prepare a separate **private** instructor solutions archive; never publish answer keys alongside student assignments.
 - Add an exam-style tracing question after each major section, while protecting the official 60%/40% assessment scheme.
 
-## 2. Course-level instructional design (proposed)
+## 2. Course-level instructional design (lecturer-approved approach)
 
 **Progression:** reasoning and memory structures (S01–S07) → sorting and selection (S08–S11) → greedy/DP design (S12–S15) → graph algorithms (S16–S19) → complexity limits and synthesis (S20).
 
-**Teaching pattern:** the ordinary 180-minute session is planned as 15 minutes retrieval/prediction, 45 minutes illustrated explanation, 45 minutes algorithm walk-through, 60 minutes supervised exercise and 15 minutes wrap-up/exit ticket. In assessed-studio sessions, allow 10 minutes briefing, 25 minutes targeted review, 35 minutes guided example, 95 minutes practical work and 15 minutes check-out. Break arrangements must follow institution policy and may require adapting these timings.
+**Teaching pattern (illustrative 180-minute agenda):** 10 minutes retrieval/prediction, **65 minutes theory with diagrams**, 30 minutes guided live algorithm demonstrations, 60 minutes supervised practice and 15 minutes recap/exit ticket. The lecturer approved **60–75 minutes of theory** per standard session with demonstrations and hands-on exercises; agenda segments can be interleaved. In assignment-focused sessions, a provisional 10-minute briefing, 25-minute targeted review, 35-minute guided example, 95-minute practice and 15-minute check-out provide 180 minutes. Break arrangements must follow institution policy and may require adapting these timings. This is not an assessment rule.
 
-**Source-of-truth order:** official descriptor → approved course plan → approved `lecture.md` → slides, exercises and practical lab. Keep approved files stable; changes should be justified in clear direct-to-default-branch commits after professor approval. Each session package will later provide a 3-hour agenda, a detailed `lecture.md`, editable 16:9 PPTX with speaker notes, `exercises.md` without solutions, and a lab only when appropriate. No session packages are generated at this initial phase.
+**Source-of-truth order:** official descriptor → approved course plan → approved `lecture.md` → slides, exercises and practical lab. Keep approved files stable; changes should be justified in clear direct-to-default-branch commits after professor approval. Each requested session package will provide a 3-hour agenda in `README.md`, a detailed `lecture.md`, an editable 16:9 `slides.pptx` with detailed native speaker notes when technically possible (or `slides.md` as a clear PowerPoint handoff), `exercises.md` without solutions, and a practical Colab/Python or VS Code/C++ lab only when appropriate. Retain `slides.md` as slide source. Instructor solutions remain outside the public repository. **No session packages are generated by this approval step.**
 
 **Self-study allocation:** an **illustrative** distribution, not a mandated weekly quota, assigns 10 hours to each of 16 regular sessions and 13 hours to each of the four assignment checkpoint sessions = **212 hours**. The official **28 assessment hours** are a separate workload category and are **not allocated here** pending clarification. The three official categories total 60 + 212 + 28 = **300 hours**.
 
-**Programming strategy:** Python is used for rapid visualisation, tracing, correctness tests and accessible exercises. C++ is used for explicit memory/allocator/cache discussions and comparable profiled implementations. For fair benchmarking, disclose interpreter/compiler versions, optimisation flags, machine specs, input distributions, warm-up and repeated-run procedure. Timing comparisons are evidence of observed behaviour, not proof of asymptotic complexity. Do not claim Python and C++ are directly comparable without controlling for algorithm, data and run conditions.
+**Programming strategy (lecturer-approved):** Python is the primary teaching language, using Google Colab for rapid visualisation, tracing, correctness tests and accessible exercises. C++ is used in Visual Studio Code for explicit data-structure implementation, memory/allocator/cache discussions and comparable profiled implementations. Teaching-language choices do not settle the programming language required for each graded assignment. For fair benchmarking, disclose interpreter/compiler versions, optimisation flags, machine specs, input distributions, warm-up and repeated-run procedure. Timing comparisons are evidence of observed behaviour, not proof of asymptotic complexity. Do not claim Python and C++ are directly comparable without controlling for algorithm, data and run conditions.
 
 **Technical quality gates (for later sessions):** check mathematical claims and asymptotic assumptions; execute code/test edge cases; verify speaker notes and slide readability; confirm GitHub/Colab relative links; cite source material; clearly distinguish teaching simplifications from formal claims; obtain lecturer academic approval separately from technical checks.
 
 ## 3. Session-by-session map
 
-All 20 sessions have **3 contact hours**, for a total of **60**. Outcome codes are local references defined above. Session 5/10/15/19 are descriptor-prescribed assignment checkpoints; all timings and other session placements are proposals.
+All 20 sessions have **3 contact hours**, for a total of **60**. Outcome codes are local references defined above. S05/S10/S15/S19 remain the descriptor-prescribed assignment sessions; the lecturer has approved the **session sequence** and the proposal to use them for in-class assignment support, but institutional confirmation is still needed before assigning official release/submission dates.
 
 | Session | Topic | Contact | Self-study* | Core outcomes | Deliverable or emphasis |
 |---|---|---:|---:|---|---|
@@ -395,7 +410,7 @@ All 20 sessions have **3 contact hours**, for a total of **60**. Outcome codes a
 
 **Proposed common assignment evidence, subject to approval:** correct implementations, documented input assumptions, runnable tests including edge cases, theoretical complexity justification, reproducible performance measurements where applicable, and a short interpretation of results. Do not pre-publish full worked solutions in a public repo.
 
-## 6. Repository layout and publishing workflow (proposal)
+## 6. Repository layout and publishing workflow (lecturer-approved)
 
 ```text
 data-structures-and-algorithms/
@@ -408,7 +423,8 @@ data-structures-and-algorithms/
 │   ├── S01/
 │   │   ├── README.md
 │   │   ├── lecture.md
-│   │   ├── slides.pptx
+│   │   ├── slides.md           # editable slide authoring source and notes
+│   │   ├── slides.pptx         # when generation is supported
 │   │   ├── exercises.md
 │   │   └── lab.ipynb          # only for a session that needs Python/Colab
 │   ├── S02/
@@ -417,11 +433,11 @@ data-structures-and-algorithms/
     └── references.md
 ```
 
-**Important:** the tree above is illustrative: no empty directories/files, dummy slide decks or placeholder notebooks should be created. C++ labs can use `lab.cpp` (plus any minimal instructions) instead of `lab.ipynb`, or both if educationally necessary. A public repo contains student-facing materials only. Keep instructor answer keys separate and private. The original three-page descriptor is stored verbatim at the proposed destination `module-descriptor/original-descriptor.pdf` if publication is approved.
+**Important:** the tree above is illustrative: no empty directories/files, dummy slide decks or placeholder notebooks should be created. C++ labs can use `lab.cpp` (plus any minimal instructions) instead of `lab.ipynb`, or both if educationally necessary. A public repo contains student-facing materials only. Keep instructor answer keys separate and private. The official three-page descriptor is already present at `module-descriptor/original-descriptor.pdf` on `master`.
 
-**Minimal lifecycle:** draft files locally → lecturer reviews → revise same files → explicit lecturer approval → commit approved content directly on the sole default branch (ideally `main`) → update `COURSE_STATUS.md`. No feature branches, pull requests, issue-per-task tracking, Kanban board, multi-agent hierarchy or governance paperwork.
+**Minimal lifecycle:** draft files → lecturer reviews → revise same files → explicit lecturer approval and publication instruction → commit authorised content directly to the existing sole default branch `master` → update `COURSE_STATUS.md`. No feature branches, pull requests, issue-per-task tracking, Kanban board, multi-agent hierarchy or governance paperwork.
 
-**Observed initial state on 22 October 2026:** `fajouri/data-structures-and-algorithms` is an empty **public** GitHub repository with default branch `master`. Decide whether to retain the sole `master` branch or change the default to `main` before publishing; do not create parallel permanent branches. The drafts in this document have **not** been committed.
+**Repository verified on 22 October 2026:** `fajouri/data-structures-and-algorithms` is **public** and already contains the official descriptor, the course plan, the status tracker, and the `dsa-course-builder` skill. Its sole default branch is `master`; keep this branch. Pedagogical approval does not by itself authorise publication of future session materials.
 
 ## 7. Risks, omissions and decisions that matter
 
@@ -435,8 +451,10 @@ data-structures-and-algorithms/
 8. **Public student repository:** ensure solutions, exam-answer keys, private student work and unreleased assessment materials are not uploaded.
 9. **Dataset integrity:** confirm legal access, source citation, directed/undirected semantics, non-negative weight assumptions for Dijkstra, and connectivity needs for MSTs.
 
-## 8. Approval checkpoint and next action
+## 8. Approval record and next action
 
-**Academic decision requested:** approve or amend the 20-session progression, Python/C++ teaching strategy, and one-branch repository workflow. The lecturer/institution must additionally settle assignment weights, deadlines, exam scheduling and data/hardware policies before graded materials are published.
+**Lecturer pedagogical approval recorded on 22 October 2026:** approve the **existing 20-session course sequence**, Python-first / complementary C++ teaching approach, Colab + VS Code environment, 60–75 minute theory emphasis integrated with demonstrations and supervised exercises, complete editable session teaching packages, and minimal one-branch repository workflow. This is a **course-delivery approval**, not a claim that the institution has approved the unresolved assessment details in section B2.
 
-**Once the course plan is explicitly approved:** set plan status to **APPROVED**, retain it as the planning source of truth, publish the two approved Markdown files plus the exact descriptor on the agreed default branch, then create the **S01** teaching package (`README.md`, `lecture.md`, `slides.pptx` with notes, `exercises.md`, and an appropriate Python lab). Update `COURSE_STATUS.md` after each reviewed and approved artifact; do not generate every session's slides in advance.
+**Academic integrity gate:** preserve the official 60% written exam / 40% assignments, four prescribed assignment scopes and checkpoints, 2.5-hour closed-book exam, official outcomes and 300-hour allocation. Do not advertise per-assignment grading weights, deadlines, exam timetable or Python/C++ graded submission rules until institutionally confirmed.
+
+**Next action:** when explicitly authorised, publish this updated plan and matching `COURSE_STATUS.md` on `master`; then prepare S01 **only upon a new explicit session-generation request**. No S01 or other session material is generated during this approval step.
