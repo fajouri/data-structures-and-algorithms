@@ -1,16 +1,16 @@
 # COURSE_STATUS — M12 Data Structures and Algorithms
 
-> **Course plan: DRAFT**. Lecturer approval: **NOT STARTED**. Local planning snapshot: 22 October 2026. No material has been committed to GitHub.
+> **Course plan: APPROVED for pedagogical course design by lecturer — 22 October 2026.** Institutional assessment-rule details: **PENDING CONFIRMATION**. Session material and individual professor approvals remain **NOT STARTED**. Publication of academic changes requires an explicit instruction.
 
 - Official course duration: **20 × 3-hour sessions = 60 contact hours**.
-- Student-facing materials are created one session at a time **after plan approval**.
+- Student-facing materials are created **only when individually requested** following pedagogical course-plan approval; no S01 materials have been generated.
 - Allowed progress values: **NOT STARTED**, **DRAFT**, **REVIEW**, **APPROVED**.
 - **Content** = session `README.md` + `lecture.md`; **PowerPoint** = editable `slides.pptx` + speaker notes; **Exercises** = `exercises.md`; **Lab** = any required executable materials. When a lab is not pedagogically needed, retain `NOT STARTED` and explain in the next action rather than inventing a fifth status.
 - **Professor approval** applies to the overall session package and is independent of test/technical validation.
 
 | Session | Topic | Content status | PowerPoint status | Exercises status | Lab status | Professor approval | Next action |
 |---|---|---|---|---|---|---|---|
-| S01 | Algorithmic thinking, abstract data types and asymptotic analysis | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Approve course plan; then draft S01 materials |
+| S01 | Algorithmic thinking, abstract data types and asymptotic analysis | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Await an explicit request to generate S01 |
 | S02 | Recursion, recurrences, Master Theorem and binary search | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S03 | Arrays, dynamic arrays, linked lists and amortised costs | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S04 | Stacks, queues, binary search trees and symbol tables | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
@@ -39,4 +39,4 @@
 4. Publish only after the lecturer requests publication; commit directly to the sole default branch and update this table in the same small workflow.
 5. Do not treat a passing code test, GitHub commit or slide export as lecturer approval.
 
-**Next overall action:** Review and approve or amend `course-plan.md`; resolve the open assessment and tooling decisions before publishing graded materials.
+**Next overall action:** Publish the revised pedagogically approved `course-plan.md` and tracker only after explicit instruction. Generate S01 only if separately requested. Before graded assignment instructions are issued, obtain institutional confirmation of weights, due dates, rubrics, Python/C++ submission rules and required examination logistics.
