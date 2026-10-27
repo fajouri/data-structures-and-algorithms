@@ -1,9 +1,9 @@
 # COURSE_STATUS — M12 Data Structures and Algorithms
 
-> **Course plan: APPROVED for pedagogical course design by lecturer — 22 October 2026.** Institutional assessment-rule details: **PENDING CONFIRMATION**. S01 content and exercises are in **REVIEW**; its PowerPoint and labs are in **DRAFT**. Individual professor approval remains **NOT STARTED**. Publication of academic changes requires an explicit instruction.
+> **Course plan: APPROVED for pedagogical course design by lecturer — 22 October 2026.** Institutional assessment-rule details: **PENDING CONFIRMATION**. S01 content and exercises are in **REVIEW**; its PowerPoint and labs are in **DRAFT**. S02 has been added to `master` as a draft for lecturer review; technical validation and individual professor approval remain outstanding.
 
 - Official course duration: **20 × 3-hour sessions = 60 contact hours**.
-- Student-facing materials are created **only when individually requested** following pedagogical course-plan approval; the S01 package was drafted on request and remains unpublished.
+- Student-facing materials are created **only when individually requested** following pedagogical course-plan approval. S02 was explicitly requested and its draft materials have been committed to the default branch for review.
 - Allowed progress values: **NOT STARTED**, **DRAFT**, **REVIEW**, **APPROVED**.
 - **Content** = session `README.md` + `lecture.md`; **PowerPoint** = editable `slides.pptx` + speaker notes; **Exercises** = `exercises.md`; **Lab** = any required executable materials. When a lab is not pedagogically needed, retain `NOT STARTED` and explain in the next action rather than inventing a fifth status.
 - **Professor approval** applies to the overall session package and is independent of test/technical validation.
@@ -11,7 +11,7 @@
 | Session | Topic | Content status | PowerPoint status | Exercises status | Lab status | Professor approval | Next action |
 |---|---|---|---|---|---|---|---|
 | S01 | Algorithmic thinking, abstract data types and asymptotic analysis | REVIEW | DRAFT | REVIEW | DRAFT | NOT STARTED | Lecturer review; visually inspect PPTX and compile/run C++ with a configured toolchain |
-| S02 | Recursion, recurrences, Master Theorem and binary search | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
+| S02 | Recursion, recurrences, Master Theorem and binary search | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | Run validator and code checks; create editable PPTX with native speaker notes; lecturer review of content and slides |
 | S03 | Arrays, dynamic arrays, linked lists and amortised costs | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S04 | Stacks, queues, binary search trees and symbol tables | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S05 | Assignment 1 studio — symbol-table implementations and benchmarking | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Confirm A1 rules and draft session package |
@@ -39,4 +39,4 @@
 4. Publish only after the lecturer requests publication; commit directly to the sole default branch and update this table in the same small workflow.
 5. Do not treat a passing code test, GitHub commit or slide export as lecturer approval.
 
-**Next overall action:** Review the drafted S01 package and resolve its remaining PowerPoint visual and C++ execution checks before lecturer approval. Publish only after explicit instruction. Before graded assignment instructions are issued, obtain institutional confirmation of weights, due dates, rubrics, Python/C++ submission rules and required examination logistics.
+**Next overall action:** Review S01 and S02 drafts, complete S02 technical validation and editable PowerPoint export, and obtain lecturer sign-off before marking any session approved. Before graded assignment instructions are issued, obtain institutional confirmation of weights, due dates, rubrics, Python/C++ submission rules and required examination logistics.
