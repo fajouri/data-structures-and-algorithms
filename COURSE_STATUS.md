@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|---|
 | S01 | Algorithmic thinking, abstract data types and asymptotic analysis | REVIEW | DRAFT | REVIEW | DRAFT | NOT STARTED | Lecturer review; visually inspect PPTX and compile/run C++ with a configured toolchain |
 | S02 | Recursion, recurrences, Master Theorem and binary search | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | Run validator and code checks; create editable PPTX with native speaker notes; lecturer review of content and slides |
-| S03 | Arrays, dynamic arrays, linked lists and amortised costs | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
+| S03 | Arrays, dynamic arrays, linked lists and amortised costs | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | Run session validator and Python/C++ self-checks; review academic content; create and inspect editable PPTX with native speaker notes; lecturer review |
 | S04 | Stacks, queues, binary search trees and symbol tables | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S05 | Assignment 1 studio — symbol-table implementations and benchmarking | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Confirm A1 rules and draft session package |
 | S06 | Balanced search trees: AVL, red-black, splay and B-trees | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
@@ -39,4 +39,4 @@
 4. Publish only after the lecturer requests publication; commit directly to the sole default branch and update this table in the same small workflow.
 5. Do not treat a passing code test, GitHub commit or slide export as lecturer approval.
 
-**Next overall action:** Review S01 and S02 drafts, complete S02 technical validation and editable PowerPoint export, and obtain lecturer sign-off before marking any session approved. Before graded assignment instructions are issued, obtain institutional confirmation of weights, due dates, rubrics, Python/C++ submission rules and required examination logistics.
+**Next overall action:** Review S01–S03 drafts, complete technical validation and editable PowerPoint exports, and obtain lecturer sign-off before marking any session approved. Before graded assignment instructions are issued, obtain institutional confirmation of weights, due dates, rubrics, Python/C++ submission rules and required examination logistics.
