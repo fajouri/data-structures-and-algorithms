@@ -1,6 +1,6 @@
 # COURSE_STATUS — M12 Data Structures and Algorithms
 
-> **Course plan: APPROVED for pedagogical course design by lecturer — 22 October 2026.** Institutional assessment-rule details: **PENDING CONFIRMATION**. S01 content and exercises are in **REVIEW**; its PowerPoint and labs are in **DRAFT**. S02 has been added to `master` as a draft for lecturer review; technical validation and individual professor approval remain outstanding.
+> **Course plan: APPROVED for pedagogical course design by lecturer — 22 October 2026. S01, S02 and S03: APPROVED by the lecturer on 3 November 2026.** Institutional assessment-rule details: **PENDING CONFIRMATION**. Component statuses below continue to track outstanding technical validation and deliverables independently of lecturer approval.
 
 - Official course duration: **20 × 3-hour sessions = 60 contact hours**.
 - Student-facing materials are created **only when individually requested** following pedagogical course-plan approval. S02 was explicitly requested and its draft materials have been committed to the default branch for review.
@@ -10,9 +10,9 @@
 
 | Session | Topic | Content status | PowerPoint status | Exercises status | Lab status | Professor approval | Next action |
 |---|---|---|---|---|---|---|---|
-| S01 | Algorithmic thinking, abstract data types and asymptotic analysis | REVIEW | DRAFT | REVIEW | DRAFT | NOT STARTED | Lecturer review; visually inspect PPTX and compile/run C++ with a configured toolchain |
-| S02 | Recursion, recurrences, Master Theorem and binary search | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | Run validator and code checks; create editable PPTX with native speaker notes; lecturer review of content and slides |
-| S03 | Arrays, dynamic arrays, linked lists and amortised costs | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | Run session validator and Python/C++ self-checks; review academic content; create and inspect editable PPTX with native speaker notes; lecturer review |
+| S01 | Algorithmic thinking, abstract data types and asymptotic analysis | REVIEW | DRAFT | REVIEW | DRAFT | APPROVED | Visually inspect PPTX and compile/run C++ with a configured toolchain |
+| S02 | Recursion, recurrences, Master Theorem and binary search | DRAFT | DRAFT | DRAFT | DRAFT | APPROVED | Run validator and code checks; create and inspect editable PPTX with native speaker notes |
+| S03 | Arrays, dynamic arrays, linked lists and amortised costs | DRAFT | DRAFT | DRAFT | DRAFT | APPROVED | Run session validator and Python/C++ self-checks; create and inspect editable PPTX with native speaker notes |
 | S04 | Stacks, queues, binary search trees and symbol tables | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S05 | Assignment 1 studio — symbol-table implementations and benchmarking | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Confirm A1 rules and draft session package |
 | S06 | Balanced search trees: AVL, red-black, splay and B-trees | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
@@ -39,4 +39,4 @@
 4. Publish only after the lecturer requests publication; commit directly to the sole default branch and update this table in the same small workflow.
 5. Do not treat a passing code test, GitHub commit or slide export as lecturer approval.
 
-**Next overall action:** Review S01–S03 drafts, complete technical validation and editable PowerPoint exports, and obtain lecturer sign-off before marking any session approved. Before graded assignment instructions are issued, obtain institutional confirmation of weights, due dates, rubrics, Python/C++ submission rules and required examination logistics.
+**Next overall action:** Complete technical validation and editable PowerPoint exports for the lecturer-approved S01–S03 packages. Before graded assignment instructions are issued, obtain institutional confirmation of weights, due dates, rubrics, Python/C++ submission rules and required examination logistics.
