@@ -13,7 +13,7 @@
 | S01 | Algorithmic thinking, abstract data types and asymptotic analysis | REVIEW | DRAFT | REVIEW | DRAFT | APPROVED | Visually inspect PPTX and compile/run C++ with a configured toolchain |
 | S02 | Recursion, recurrences, Master Theorem and binary search | DRAFT | DRAFT | DRAFT | DRAFT | APPROVED | Run validator and code checks; create and inspect editable PPTX with native speaker notes |
 | S03 | Arrays, dynamic arrays, linked lists and amortised costs | DRAFT | DRAFT | DRAFT | DRAFT | APPROVED | Run session validator and Python/C++ self-checks; create and inspect editable PPTX with native speaker notes |
-| S04 | Stacks, queues, binary search trees and symbol tables | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
+| S04 | Stacks, queues, binary search trees and symbol tables | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | Lecturer review, run session validator, verify editable PowerPoint notes and notebook self-checks |
 | S05 | Assignment 1 studio — symbol-table implementations and benchmarking | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Confirm A1 rules and draft session package |
 | S06 | Balanced search trees: AVL, red-black, splay and B-trees | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S07 | Hash tables: chaining, open addressing and memory trade-offs | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
