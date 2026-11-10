@@ -40,7 +40,7 @@ For detailed per-slide timings, see [slide source](slides.md); the total is exac
 - [Practice worksheet](exercises.md)
 - [Runnable Python lab](lab.py)
 - [Colab tutorial](tutorial/S04_Stacks_Queues_BST_Symbol_Tables.ipynb)
-- [Editable slide deck](slides.pptx) *(included once generated and verified)*
+- [Editable slide deck with native speaker notes](slides.pptx) (18 slides; PowerPoint opening/rendering has not been independently tested)
 
 The editable slide source remains the source of truth if the presentation must be regenerated. Do not treat draft materials as lecturer-approved or graded.
 
