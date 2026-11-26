@@ -14,3 +14,7 @@ A complete session normally contains:
 - Appropriate runnable Python/C++ examples, tests or notebooks, only when useful
 
 Keep instructor solutions out of the public repository. See [Codex skill](../.agents/skills/dsa-course-builder/SKILL.md).
+
+## Combined delivery
+
+- [S07 + S08 — Hash tables, heaps and sorting](S07-S08/README.md): lecturer-requested 180-minute delivery (90 minutes per topic); remaining 3 contact hours to reconcile. Draft materials; PowerPoint binary upload pending.

@@ -16,8 +16,8 @@
 | S04 | Stacks, queues, binary search trees and symbol tables | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | Lecturer review, run session validator, verify editable PowerPoint notes and notebook self-checks |
 | S05 | Assignment 1 studio — symbol-table implementations and benchmarking | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Confirm A1 rules and draft session package |
 | S06 | Balanced search trees: AVL, red-black, splay and B-trees | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
-| S07 | Hash tables: chaining, open addressing and memory trade-offs | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
-| S08 | Heaps, priority queues, insertion sort and sorting lower bounds | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
+| S07 | Hash tables: chaining, open addressing and memory trade-offs | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | [Combined S07–S08 draft (90 + 90 min)](sessions/S07-S08/README.md); upload PPTX, lecturer review, reconcile 3 contact hours |
+| S08 | Heaps, priority queues, insertion sort and sorting lower bounds | DRAFT | DRAFT | DRAFT | DRAFT | NOT STARTED | [Combined S07–S08 draft (90 + 90 min)](sessions/S07-S08/README.md); upload PPTX, lecturer review, reconcile 3 contact hours |
 | S09 | Merge sort, quicksort and three-way partitioning | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
 | S10 | Assignment 2 studio — sorting benchmarks at scale | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Confirm A2 rules and draft session package |
 | S11 | Linear-time sorting, searching and selection | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | NOT STARTED | Draft when prior session content is approved |
